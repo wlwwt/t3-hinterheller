@@ -81,6 +81,7 @@ lib.general.header_start {
                 wrap = <p>|</p>
                 10 = TEXT
                 10 {	
+                    wrap = |<br>
                     value = {$plugin.theme_configuration.general.mail.link}
                     typolink.ATagParams = class="mailLink"
                     typolink.parameter = {$plugin.theme_configuration.general.mail.link}

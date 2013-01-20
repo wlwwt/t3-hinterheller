@@ -45,12 +45,9 @@ page {
 
 	# JS files to be included
 	includeJSFooter {
-	#	file2 = EXT:theme_hinterheller/Resources/Public/Template/js/bootstrap.js
-	#	file3 = EXT:theme_hinterheller/Resources/Public/Template/js/bootstrap-dropdown.js
 	}
 
 	includeJSFooterlibs {
-	#jQuery = EXT:theme_hinterheller/Resources/Public/Template/js/jquery.js
 	}
 
 
