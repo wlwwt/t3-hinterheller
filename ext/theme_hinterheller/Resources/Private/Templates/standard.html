@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<f:layout name="Default" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Template Startseite Hinterheller</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" type="text/css" media="print, screen, projection" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" media="print, screen, projection" href="css/styles.css" />
+
+</head>
+
+<body>
+<f:section name="body">
+        
+<div id="page" class="standardpage">
+
+	<f:render partial="Page/header" />
+
+	<div id="content" class="w1069 clearfix">
+		
+		<div id="columnLeft" class="column">
+                    
+                    <f:cObject typoscriptObjectPath="lib.navigation.main">
+                        <ul id="leftMenu">
+				<li class="selected"><a href="#">Startseite</a></li>
+				<li><a href="#">Leistung und Vergütung</a></li>
+				<li><a href="#">Über mich</a></li>
+				<li><a href="#">Kontakt</a></li>
+				<li><a href="#">AGB</a></li>
+			</ul>
+                    </f:cObject>
+                    
+                    <f:cObject typoscriptObjectPath="lib.general.logo">
+                        <img id="leftLogo" src="img/bottom_logo.jpg" alt="logo" />
+                    </f:cObject>
+			
+		</div>
+		
+		<div id="columnRight" class="column">
+                    
+                    <f:cObject typoscriptObjectPath="lib.content.main">
+                       <h2>Lorem ipsum</h2>
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p> 
+                    </f:cObject>
+                        
+		</div>
+		
+	</div>
+</div>
+<f:render partial="Page/footer" />
+
+</f:section>
+</body>
+
+
+</html>

@@ -19,6 +19,7 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_hinterheller/Resources/Private/TypoScript/page/configuration.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_hinterheller/Resources/Private/TypoScript/page/configuration_language.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_hinterheller/Resources/Private/TypoScript/page/seo.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_hinterheller/Resources/Private/TypoScript/page/tracking.ts">
 
 
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_hinterheller/Resources/Private/TypoScript/page/debug.ts">
