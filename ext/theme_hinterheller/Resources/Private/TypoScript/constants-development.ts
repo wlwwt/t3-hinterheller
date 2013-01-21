@@ -27,3 +27,8 @@ plugin.theme_configuration.assets.merge = 0
 # **********************************************************
 styles.content.imgtext.maxW = 800
 styles.content.imgtext.maxH = 800
+
+# **********************************************************
+# Enable realurl
+# **********************************************************
+plugin.theme_configuration.realurl = 0
