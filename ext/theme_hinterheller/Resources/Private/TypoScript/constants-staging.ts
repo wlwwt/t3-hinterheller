@@ -11,7 +11,7 @@
 # Constants of the STAGING mode
 # **********************************************************
 
-plugin.theme_configuration.url = http://192.168.2.200/hinterheller/
+plugin.theme_configuration.url = http://hinterheller.wlwwt.de/
 
 plugin.theme_configuration.general.mail.link = info@sv-hinterheller.de
 plugin.theme_configuration.general.url.link = http://www.sv-hinterheller.de
@@ -21,3 +21,9 @@ plugin.theme_configuration.navigation_small = 2,11
 
 plugin.theme_configuration.assets.compress = 1
 plugin.theme_configuration.assets.merge = 1
+
+# **********************************************************
+# Changes in styles
+# **********************************************************
+styles.content.imgtext.maxW = 800
+styles.content.imgtext.maxH = 800
