@@ -3,7 +3,7 @@ html, body {
 	font-family: Arial,Helvetica,sans-serif;
 	font-size: 15px;
 	color: #525252;
-	background: #F8F6F7 url(../img/lvs_right_pagebkg.gif) repeat-x top left;
+	background: #F8F6F7 url('../img/lvs_right_pagebkg.gif') repeat-x top left;
 }
 
 .clearfix:after {

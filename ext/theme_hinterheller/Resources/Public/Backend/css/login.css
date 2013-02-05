@@ -1,8 +1,9 @@
-@import 'fonts/share.css';
-
 /* Background */
 body#typo3-index-php {
-	background: #017a95;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	color: #525252;
+	background: #9d1926;
 }
 
 /* main frame */
@@ -12,12 +13,13 @@ body#typo3-index-php #t3-login-form {
 	position: absolute;
 	top: 200px;
 	left: 0;
-	background: rgba(1, 51, 60, 0.6);
+	background: #F8F6F7 url('../img/bg.jpg') repeat-x top left;
 }
 
 body#typo3-index-php .refresh #t3-login-form {
 	top: 150px;
 	padding-left: 200px;
+        font-size: 15px;
 }
 
 /* inner frame holding the background image */
@@ -40,7 +42,7 @@ body#typo3-index-php #t3-login-openIdLogo {
 body#typo3-index-php .t3-headline {
 	background: transparent;
 	border: 0;
-	padding:5px 10px 0 10px;
+	padding:10px 10px 10px 10px;
 }
 
 .t3-login-box-body {
@@ -57,14 +59,11 @@ body#typo3-index-php #t3-login-form-fields {
 body#typo3-index-php .t3-headline h2 {
 	background: none;
 	color: #fff;
-	font-size: 23px !important;
-	font-family: 'Share-BoldRegular', Helvetica, sans-serif;
+	font-size: 22px !important;
+	font-family: Arial,Helvetica,sans-serif;
 	font-weight: normal;
 	letter-spacing: 1px;
-	text-transform: uppercase;
 	padding-left: 10px;
-	height: 25px;
-	overflow: hidden;
 }
 
 body#typo3-index-php #t3-login-process h2 {
