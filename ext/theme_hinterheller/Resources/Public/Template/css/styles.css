@@ -14,6 +14,8 @@ html, body {
     visibility: hidden;
 }
 
+h1 {font-size: 22px; margin-bottom:10px; margin-top:20px;}
+
 .clearfix { display: inline-block; }
 
 /* Hides from IE-mac \*/
