@@ -1,6 +1,3 @@
 [submodule "ext/realurl"]
 	path = ext/realurl
 	url = git://github.com/TYPO3-Extensions/realurl.git
-[submodule "ext/formhandler"]
-	path = ext/formhandler
-	url = git@github.com:TYPO3-Extensions/formhandler.git
