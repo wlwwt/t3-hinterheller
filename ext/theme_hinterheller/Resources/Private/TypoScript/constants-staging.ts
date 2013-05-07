@@ -32,3 +32,8 @@ styles.content.imgtext.maxH = 800
 # Enable realurl
 # **********************************************************
 plugin.theme_configuration.realurl = 1
+
+# **********************************************************
+# Google sitemap start pid
+# **********************************************************
+plugin.theme_configuration.google.sitemap = 2
