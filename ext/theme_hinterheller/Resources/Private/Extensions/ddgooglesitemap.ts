@@ -1,0 +1,1 @@
+tx_ddgooglesitemap.forceStartPid = {$plugin.theme_configuration.google.sitemap}
